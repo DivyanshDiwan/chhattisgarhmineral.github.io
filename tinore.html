@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(images/tin.jpg);
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bgtext {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 3px;
+  text-align: center;
+}
+.ironmap{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+.description{ background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  width: 600px;
+  font-style: italic;
+  padding: 10px;
+  color: white;
+  border-radius: 1vw;
+  width: 600px;}
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div> 
+<div class="bgtext">
+    <h3>Tin Deposits Spread Across Chhattisgarh</h1>
+</div>
+<div class="ironmap">
+    <iframe src="https://www.google.com/maps/d/embed?mid=1PI6NACVzvIQExQjaBN0X-3-nMVp_836V" width="640" height="480"></iframe>
+</div>
+<div class="description">
+  <p>Tin has many uses. It takes a high polish and is used to coat other metals to prevent corrosion, such as in tin cans, which are made of tin-coated steel. Alloys of tin are important, such as soft solder, pewter, bronze and phosphor bronze. A niobium-tin alloy is used for superconducting magnets.
+    Most window glass is made by floating molten glass on molten tin to produce a flat surface. Tin salts sprayed onto glass are used to produce electrically conductive coatings.
+    The most important tin salt used is tin(II) chloride, which is used as a reducing agent and as a mordant for dyeing calico and silk. Tin(IV) oxide is used for ceramics and gas sensors. Zinc stannate (Zn2SnO4) is a fire-retardant used in plastics.
+    Some tin compounds have been used as anti-fouling paint for ships and boats, to prevent barnacles. However, even at low levels these compounds are deadly to marine life, especially oysters. Its use has now been banned in most countries.</p>
+<p>Chhattisgarh is the sole producer of Tin Ore in India.
+  35.83% of the Indian Tin Ore occurs in the State, which is 30 million tonnes and Tin Metal is 15487 tonnes.</p>
+  <p>Tin Ore occurs in southern part of the state, in Katekalyan and Padapur-Bacheli area of
+  Dantewara district and Churwada, Chitalnar, Govindpal, Tongpal etc in Sukma District.
+  ATin smelter unit is operational in Jagdalpur. </p>
+</div>
+
+
+    
+
+</body>
+</html>
